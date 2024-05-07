@@ -1,6 +1,6 @@
 # Basic config, that must be set correctly
-baseurl: /markdownslides
-githuburl: https://github.com/a-nau/markdownslides/
+baseurl: /qc4eo-slides
+githuburl: https://github.com/alessandrosebastianelli/qc4eo-slides
 
 # Further config
 markdown_slide_separator: ---
