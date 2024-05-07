@@ -1,42 +1,39 @@
 ---
-author: Alexander Naumann
-title: Markdown Slides | Overview
-description: Overview of slides by Alexander Naumann
-design: black 
+author: Alessandro Sebastianelli
+title: QC4EO Slides | Overview
+description: Slides deck about quantum computing for earth obsevation by A. Sebastianelli
+design: black
 ---
-
 
 <!DOCTYPE html>
 <html>
-<head>
-  {% include head.html %}
-</head>
-<body>
-  <a class="github-fork-ribbon right-top" href="{{site.githuburl}}" data-ribbon="Improve me on GitHub" title="Improve me on GitHub">Improve me on GitHub</a>
-	<div class="reveal">
-		<div class="slides">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    <!-- <a class="github-fork-ribbon right-top" href="{{site.githuburl}}" data-ribbon="Improve me on GitHub" title="Improve me on GitHub">Improve me on GitHub</a> -->
+    <div class="reveal">
+      <div class="slides">
         <section id="overview" data-markdown data-separator="\n---\n">
-            <script type="text/template">
-# Markdown Slides
-by Alexander Naumann
+          <script type="text/template">
+            # Quantum Computing for Earth Observation
+            by Alessandro Sebastianelli
 
-<br>
+            <br>
 
-- This your landing page where you can link your presentations
-- If your are new to markdown slides, check the [introduction](/markdownslides/getting_started) slides to learn
-  - What can it do? 
-  - How to use it? 
+            - [Theory Pills](/qc4eo-slides/theory)
+            - [Use Cases](/qc4eo-slides/usecases)
+            
+            <br>
+            <br>
 
-<br>
-<br>
-
-Also feel free to check out my [github](https://github.com/a-nau/) or [website](https://a-nau.github.io) :)
-
-            </script>
+            Also feel free to check out my [github](https://github.com/alessandrosebastianelli/) or [website](https://alessandrosebastianelli.github.io) :)
+          </script>
         </section>
-			{{ content }}
-		</div>
-	</div>
-	{% include script.html %}
-</body>
+        {{ content }}
+      </div>
+    </div>
+    {% include script.html %}
+  </body>
 </html>
