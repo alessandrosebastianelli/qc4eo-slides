@@ -5,3 +5,4 @@ _site/
 .DS_Store
 assets/reveal.js/
 Gemfile.lock
+module1.old/
