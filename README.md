@@ -43,6 +43,13 @@ We recommend using the Docker image by following these steps:
 
 For more information, also check out this [blog post](https://alcher.dev/2020/jekyll-on-docker/).
 
+
+To run the slides locally run:
+
+```bash
+bundle exec jekyll serve
+```
+
 ## What can it do?
 
 Check the [examples](https://a-nau.github.io/markdownslides/getting_started#/03_examples)!
