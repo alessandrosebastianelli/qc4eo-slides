@@ -1,62 +1,49 @@
-# Markdown Slides
+# QC4EO Slides
 
-## What is it?
+## Repository organization
 
-A template project for a Github page
+This repository contains both slides and coding material.
 
-- to quickly create beautiful slides
-- and share them on freely hosted Github pages
-- it is based primarily on Markdown &rarr; easy collaboration and version control
-- you can host multiple presentations
-- to see its full power, just check the [getting started](https://a-nau.github.io/markdownslides/getting_started) presentation
+### Coding
 
-It is powered by [reveal.js](https://revealjs.com/), an awesome project by [Hakim El Hattab](https://twitter.com/hakimel) and based on and inspired by [reveal-jekyll](https://github.com/tasmo/reveal-jekyll) by [Thomas Friese](https://twitter.com/_tasmo)
+This section will appear soon.
 
-## How to set up and use it?
+### Slides
 
-Check out the [introduction](https://a-nau.github.io/markdownslides/getting_started#/02_intro) slides to see how to use this repo!
+Slides are organized in 5 moduels. Each module has several slides that can be navigated both horizontally and vertically. Typically a horizontal movement represents a shift to a new topic, while a vetical movement represents a deep dive to a specific topic.
 
-You can set up the project both locally and hosted on Github Pages.
+To easiest way of saving the slides to *.pdf* is to print the web page. Guidelines for chrome (other browsers are supported, but instructions might be different):
 
-### Github Pages
+1. right click on the web page
+2. click on print
+3. set the following:
+    - Destination -> Save as PDF
+    - Pages -> All
+    - Layout -> Landscape
+4. click on save
 
-Just fork the project, and [rename](https://docs.github.com/en/github/administering-a-repository/managing-branches-in-your-repository/renaming-a-branch) your main branch to `gh-pages`.
+#### How to set up and use it Locally?
 
-That's it :)
-
-### Locally
-
-Clone the project including submodules using
+If you want to run this project locally. Firstly, clone the project including submodules using
 
 ```bash
-git clone --recursive https://github.com/a-nau/markdownslides.git
+git clone --recursive https://github.com/alessandrosebastianelli/qc4eo-slides
 ```
 
-The you can either [install Jekyll](https://jekyllrb.com/docs/installation/) and [run](https://jekyllrb.com/docs/usage/) it or use the provided Docker image.
-
-We recommend using the Docker image by following these steps:
-
-- [Install Docker](https://docs.docker.com/get-docker/) if you haven't already
-- Build the Docker image using `docker build -t jekyll .`
-- Run markdownslides with `docker run -v ${PWD}:/app -p 4000:4000 -it --rm --name markdownslides jekyll`
-- Reach the website under [http://localhost:4000/markdownslides/](http://localhost:4000/markdownslides/)
-
-For more information, also check out this [blog post](https://alcher.dev/2020/jekyll-on-docker/).
+Then [install Jekyll](https://jekyllrb.com/docs/installation/). For more information, also check out this [blog post](https://alcher.dev/2020/jekyll-on-docker/).
 
 
-To run the slides locally run:
+Finally, to run the slides locally:
 
 ```bash
 bundle exec jekyll serve
 ```
 
-## What can it do?
-
-Check the [examples](https://a-nau.github.io/markdownslides/getting_started#/03_examples)!
-
 ---
 
 ## Licenses
+
+It is powered by [reveal.js](https://revealjs.com/), an awesome project by [Hakim El Hattab](https://twitter.com/hakimel) and based on and inspired by [reveal-jekyll](https://github.com/tasmo/reveal-jekyll) by [Thomas Friese](https://twitter.com/_tasmo)
 
 - [Jekyll](//github.com/jekyll/jekyll): [MIT licensed](//github.com/jekyll/jekyll/blob/master/LICENSE)
 - [reveal.js](//github.com/hakimel/reveal.js): [MIT licensed](//github.com/hakimel/assets/reveal.js/blob/master/LICENSE), Copyright (C) 2016 Hakim El Hattab, http://hakim.se
