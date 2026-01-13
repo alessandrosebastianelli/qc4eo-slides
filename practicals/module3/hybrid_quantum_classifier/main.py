@@ -14,6 +14,10 @@ import torch
 import numpy as np
 import pytorch_lightning as pl
 
+import sys
+
+sys.path += ['.', '..']
+
 # Import project modules
 from config import Config
 from data import download_eurosat, load_images, create_dataloaders
@@ -210,7 +214,7 @@ def quick_test():
 
 if __name__ == "__main__":
     # You can uncomment the line below to run a quick test first
-    # quick_test()
+    #quick_test()
     
     # Run the full pipeline
     main()

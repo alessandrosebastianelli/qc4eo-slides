@@ -8,7 +8,8 @@ from .encoding import (
     amplitude_encoding,
     iqp_encoding,
     basis_encoding,
-    ENCODING_MAP
+    ENCODING_MAP,
+    print_encoding_options
 )
 from .circuits import (
     strongly_entangling_circuit,
@@ -16,7 +17,8 @@ from .circuits import (
     hardware_efficient_circuit,
     custom_alternating_circuit,
     CIRCUIT_MAP,
-    get_weight_shape
+    get_weight_shape,
+    print_circuit_options
 )
 
 __all__ = [
@@ -31,5 +33,7 @@ __all__ = [
     'hardware_efficient_circuit',
     'custom_alternating_circuit',
     'CIRCUIT_MAP',
-    'get_weight_shape'
+    'get_weight_shape',
+    'print_encoding_options',
+    'print_circuit_options'
 ]

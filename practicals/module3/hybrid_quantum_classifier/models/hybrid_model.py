@@ -10,9 +10,13 @@ import torch.nn as nn
 import pytorch_lightning as pl
 import pennylane as qml
 
+import sys
+
+sys.path += ['..', '.']
+
 from .cnn_extractor import CNNFeatureExtractor
-from ..quantum.encoding import ENCODING_MAP
-from ..quantum.circuits import CIRCUIT_MAP, get_weight_shape
+from quantum.encoding import ENCODING_MAP
+from quantum.circuits import CIRCUIT_MAP, get_weight_shape
 
 
 def create_quantum_circuit(device, n_qubits):
@@ -324,8 +328,7 @@ class HybridQuantumClassifier(pl.LightningModule):
             optimizer,
             mode='min',
             factor=0.5,        # Reduce LR by half
-            patience=5,        # Wait 5 epochs before reducing
-            verbose=True
+            patience=5        # Wait 5 epochs before reducing
         )
         
         return {
