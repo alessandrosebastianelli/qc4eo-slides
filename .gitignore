@@ -5,3 +5,4 @@ _site/
 .DS_Store
 Gemfile.lock
 module1.old/
+.DS_Store
